@@ -24,7 +24,7 @@ const DoctorProfile = ({ doctorInfo, activeTab, onTabPress, reviews }) => {
                 images={doctorInfo.images}
             />
 
-            <View style={{ flex: 1 }}>
+            <View style={{ flex: 1, backgroundColor: 'white', marginHorizontal: 4, borderRadius: 16 }}>
                 <Tabs
                     tabsData={[
                     { label: 'Profile', icon: require('../../assets/profile.png') },
